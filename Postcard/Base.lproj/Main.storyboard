@@ -9,7 +9,7 @@
             <objects>
                 <viewController id="UNg-7b-uag" sceneMemberID="viewController">
                     <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eiffel-tower-1.jpg" id="JCX-ba-qOR">
-                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
                     <toolbarItems/>
@@ -37,7 +37,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pyh-Um-xKt">
@@ -84,6 +84,15 @@
                                     <rect key="frame" x="279" y="142" width="80" height="80"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rS-cH-VgR">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="132" width="326" height="25"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -93,6 +102,7 @@
                                 <exclude reference="ydb-ly-b9D"/>
                                 <exclude reference="XM1-rX-mnK"/>
                                 <exclude reference="SfV-23-PCj"/>
+                                <exclude reference="2rS-cH-VgR"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -102,6 +112,7 @@
                                 <include reference="ydb-ly-b9D"/>
                                 <include reference="XM1-rX-mnK"/>
                                 <include reference="SfV-23-PCj"/>
+                                <include reference="2rS-cH-VgR"/>
                             </mask>
                         </variation>
                     </view>
@@ -112,6 +123,7 @@
                         <outlet property="enterNameTextField" destination="Pyh-Um-xKt" id="0BZ-UI-atq"/>
                         <outlet property="mailButton" destination="ydb-ly-b9D" id="GZU-fp-Lt0"/>
                         <outlet property="messageLabel" destination="XM1-rX-mnK" id="Oyk-DU-jQF"/>
+                        <outlet property="testLabel" destination="2rS-cH-VgR" id="25N-bB-q28"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
