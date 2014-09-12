@@ -13,6 +13,8 @@
 		CD01F8CA19C1FB060015BBCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD01F8C919C1FB060015BBCC /* Images.xcassets */; };
 		CD01F8CD19C1FB060015BBCC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD01F8CB19C1FB060015BBCC /* LaunchScreen.xib */; };
 		CD01F8D919C1FB060015BBCC /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD01F8D819C1FB060015BBCC /* PostcardTests.swift */; };
+		CD01F8E319C2177A0015BBCC /* eiffel-tower-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD01F8E219C2177A0015BBCC /* eiffel-tower-1.jpg */; };
+		CD01F8E519C21D110015BBCC /* stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD01F8E419C21D110015BBCC /* stamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		CD01F8D219C1FB060015BBCC /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD01F8D719C1FB060015BBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD01F8D819C1FB060015BBCC /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		CD01F8E219C2177A0015BBCC /* eiffel-tower-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eiffel-tower-1.jpg"; sourceTree = "<group>"; };
+		CD01F8E419C21D110015BBCC /* stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		CD01F8C019C1FB060015BBCC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CD01F8E219C2177A0015BBCC /* eiffel-tower-1.jpg */,
+				CD01F8E419C21D110015BBCC /* stamp.jpg */,
 				CD01F8C119C1FB060015BBCC /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD01F8E319C2177A0015BBCC /* eiffel-tower-1.jpg in Resources */,
 				CD01F8C819C1FB060015BBCC /* Main.storyboard in Resources */,
 				CD01F8CD19C1FB060015BBCC /* LaunchScreen.xib in Resources */,
+				CD01F8E519C21D110015BBCC /* stamp.jpg in Resources */,
 				CD01F8CA19C1FB060015BBCC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
